@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: localhost:3306/msa_exam_product
+    username: ${MYSQL_USERNAME}
+    password: ${MYSQL_PASSWORD}
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:19090/eureka/

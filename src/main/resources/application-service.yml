@@ -1,0 +1,5 @@
+service:
+  jwt:
+    secret: ${JWT_SECRET}
+    expiration: 3600000
+    issuer: msa_exam
